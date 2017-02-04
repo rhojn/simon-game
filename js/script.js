@@ -35,7 +35,7 @@ var effect1 = new Audio("https://s3.amazonaws.com/freecodecamp/simonSound1.mp3")
 var effect2 = new Audio("https://s3.amazonaws.com/freecodecamp/simonSound2.mp3");
 var effect3 = new Audio("https://s3.amazonaws.com/freecodecamp/simonSound3.mp3");
 var effect4 = new Audio("https://s3.amazonaws.com/freecodecamp/simonSound4.mp3");
-var error = new Audio("http://www.orangefreesounds.com/wp-content/uploads/2015/08/Error.mp3");
+var error = new Audio("sounds/error.mp3");
 
 function random(min, max) {
     return Math.floor((Math.random()*4)+1);
